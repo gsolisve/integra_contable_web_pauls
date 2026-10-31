@@ -105,7 +105,10 @@ Rollback: revertir el commit en GitHub; Pages vuelve a publicar la versión ante
 
 ## Open Questions
 
-- Nombre del repo y usuario de GitHub (define la URL absoluta para Open Graph y JSON-LD).
-- Datos reales de Paul: nombre completo, foto, colegiatura (CCP), formación, años de experiencia, dirección, horario, correo y redes — se piden usando `docs/CONTENIDO-INVENTADO.md`.
-- ¿Existe el logo original en formato vectorial?
-- ¿El QR del flyer apunta exactamente a `wa.me/51943755357` o a otro enlace?
+_Ninguna abierta por ahora._
+
+**Resueltas (2026-10-24):**
+- Repo: `https://github.com/gsolisve/integra_contable_web_pauls` → sitio publicado en `https://gsolisve.github.io/integra_contable_web_pauls/` (base para `og:url`, `og:image` y `url` del JSON-LD).
+- Datos de Paul: se usan datos verosímiles inventados; Gabriel los reemplaza después usando `docs/CONTENIDO-INVENTADO.md`.
+- Logo: se trabaja con el logo SVG propuesto (provisorio) hasta tener el original.
+- QR: se genera uno propio hacia `https://wa.me/51943755357`, cuyo uso es que un visitante en computadora lo escanee con el celular y abra el chat ahí.

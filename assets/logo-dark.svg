@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 90" role="img" aria-labelledby="t">
+  <!-- PROVISORIO: logo redibujado a mano a partir del flyer. Reemplazar por el logo original del cliente. -->
+  <!-- Versión para fondo oscuro (azul marino): barras y texto en blanco. -->
+  <title id="t">Estudio Solis y Asociados</title>
+  <rect x="6" y="52" width="12" height="30" fill="#FFFFFF"/>
+  <rect x="23" y="38" width="12" height="44" fill="#FFFFFF"/>
+  <rect x="40" y="22" width="12" height="60" fill="#FFFFFF"/>
+  <path d="M2 62 C22 56 44 40 62 14" fill="none" stroke="#C9A227" stroke-width="5" stroke-linecap="round"/>
+  <path d="M50 12 L68 8 L62 26 Z" fill="#C9A227"/>
+  <text x="80" y="42" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#FFFFFF">SOLIS</text>
+  <text x="80" y="68" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#C9A227">Y ASOCIADOS</text>
+  <text x="80" y="84" font-family="Arial, Helvetica, sans-serif" font-size="9" letter-spacing="2" fill="#D1D5DB">ESTUDIO CONTABLE Y TRIBUTARIO</text>
+</svg>

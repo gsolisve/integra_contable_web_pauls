@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- PROVISORIO: silueta genérica. Reemplazar por la foto real del contador cuando el cliente la entregue. -->
+  <rect width="200" height="200" fill="#E5E9F0"/>
+  <circle cx="100" cy="76" r="38" fill="#0B2545"/>
+  <path d="M24 200 C24 142 62 120 100 120 C138 120 176 142 176 200 Z" fill="#0B2545"/>
+</svg>
