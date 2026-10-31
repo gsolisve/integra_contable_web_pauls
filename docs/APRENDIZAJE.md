@@ -43,3 +43,21 @@ Registro cronológico de cada checkpoint: qué se construyó, qué preguntas se 
 **Si algo falla**: F12 → pestaña Consola (errores de JS, con archivo y línea) y pestaña Red (recursos con 404 en rojo). Si un botón de WhatsApp no cambia de mensaje, revisa que el `data-whatsapp` coincida exactamente con una clave de `WHATSAPP.servicios`. Si el estilo no cambia, recarga con Ctrl+F5 (caché).
 
 **Respuestas de Gabriel**: _(pendiente)_
+
+---
+
+## 2026-10-30 — Rediseño "El Quipu" con la skill impeccable
+
+**Qué se construyó**: `PRODUCT.md` (verdad del producto), rediseño completo de `index.html` y `css/styles.css` (mundo visual del quipu: cuerdas y nudos), fuentes autohospedadas en `fonts/`. `js/main.js` no cambió: WhatsApp y SEO siguen igual.
+
+**Preguntas** (respóndelas al final, según el acuerdo):
+1. ¿Por qué las fuentes están en `fonts/` y no se cargan desde Google Fonts? ¿Qué ventaja tiene para GitHub Pages y para la velocidad?
+2. En `css/styles.css` los colores ahora viven en `:root` (`--indigo`, `--tarwi`…). ¿Qué línea editas para cambiar el amarillo en todo el sitio?
+3. El quipu del hero es un SVG dentro de `index.html` y el anillo de WhatsApp está posicionado con porcentajes. ¿Por qué porcentajes y no píxeles?
+4. ¿Qué hace `@media (prefers-reduced-motion: no-preference)` alrededor de la animación de las cuerdas?
+
+**Tarea práctica**: en `css/styles.css` cambia `--tarwi: #e8b445;` por `#2fa37a`, recarga con Ctrl+F5 y mira qué cambia (botones, título del hero, cuerdas). Luego vuelve a `#e8b445`. Nota: la tarea antigua de `--color-accent` ya no existe; esa variable fue reemplazada.
+
+**Si algo falla**: F12 → pestaña Red: si una fuente sale en rojo (404), revisa la ruta en `@font-face` (`../fonts/...`). Si las cuerdas no animan, comprueba que el sistema no tenga "reducir movimiento" activado.
+
+**Respuestas de Gabriel**: _(pendiente)_

@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Estudio Solis y Asociados | Contador y asesoría tributaria en Perú</title>
   <meta name="description" content="Contador en Perú: contabilidad, asesoría tributaria, constitución de empresas, asesoría financiera y peritaje. Atención presencial y remota. Cotiza por WhatsApp">
+  <meta name="theme-color" content="#1b2656">
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 
   <!-- Open Graph (vista previa al compartir por WhatsApp/redes).
@@ -43,6 +44,7 @@
   }
   </script>
 
+  <link rel="preload" href="fonts/bricolage-grotesque-latin-800-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="css/styles.css">
   <script src="js/main.js" defer></script>
 </head>
@@ -52,7 +54,7 @@
   <!-- ================= HEADER ================= -->
   <header class="site-header">
     <div class="container header-inner">
-      <a class="logo" href="#inicio"><img src="assets/logo.svg" alt="Estudio Solis y Asociados" width="148" height="40"></a>
+      <a class="logo" href="#inicio"><img src="assets/logo-dark.svg" alt="Estudio Solis y Asociados" width="148" height="40"></a>
       <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Abrir menú">
         <span></span><span></span><span></span>
       </button>
@@ -75,13 +77,65 @@
 
     <!-- ================= HERO ================= -->
     <section class="hero" id="inicio">
-      <div class="container">
-        <h1>Tu aliado en la <em>gestión contable, tributaria y financiera</em></h1>
-        <p>Atención presencial y remota para emprendedores y empresas de todo el Perú.</p>
-        <div class="hero-actions">
-          <!-- href de respaldo con mensaje genérico: funciona aunque JS falle (main.js lo reemplaza) -->
-          <a class="btn btn-primary" data-whatsapp="generico" href="https://wa.me/51943755357?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20sus%20servicios%20contables" target="_blank" rel="noopener">Cotiza por WhatsApp</a>
-          <a class="btn btn-secondary" href="#servicios">Ver servicios</a>
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1>Tu aliado en la <em>gestión contable, tributaria y financiera</em></h1>
+          <p>Atención presencial y remota para emprendedores y empresas de todo el Perú.</p>
+          <div class="hero-actions">
+            <!-- href de respaldo con mensaje genérico: funciona aunque JS falle (main.js lo reemplaza) -->
+            <a class="btn btn-primary" data-whatsapp="generico" href="https://wa.me/51943755357?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20sus%20servicios%20contables" target="_blank" rel="noopener">Cotiza por WhatsApp</a>
+            <a class="btn btn-secondary" href="#servicios">Ver servicios</a>
+          </div>
+        </div>
+
+        <!-- Quipu: cuerda principal con cuerdas colgantes. La más larga termina en el anillo de WhatsApp.
+             Posición del anillo = % del viewBox 400x560 (x 334, y 520). -->
+        <div class="quipu">
+          <svg viewBox="0 0 400 560" aria-hidden="true" focusable="false">
+            <g class="q-pendant c-alpaca" style="--i:1">
+              <path class="q-cord" d="M34 34V300" pathLength="1"/>
+              <circle class="q-knot" style="--k:1" cx="34" cy="120" r="8"/><circle class="q-knot" style="--k:2" cx="34" cy="138" r="8"/>
+              <circle class="q-knot" style="--k:3" cx="34" cy="230" r="8"/><circle class="q-knot" style="--k:4" cx="34" cy="248" r="8"/><circle class="q-knot" style="--k:5" cx="34" cy="266" r="8"/>
+            </g>
+            <g class="q-pendant c-cochinilla" style="--i:2">
+              <path class="q-cord" d="M84 34V420" pathLength="1"/>
+              <circle class="q-knot" style="--k:1" cx="84" cy="110" r="8"/>
+              <circle class="q-knot" style="--k:2" cx="84" cy="220" r="8"/><circle class="q-knot" style="--k:3" cx="84" cy="238" r="8"/>
+              <circle class="q-knot" style="--k:4" cx="84" cy="340" r="8"/><circle class="q-knot" style="--k:5" cx="84" cy="358" r="8"/><circle class="q-knot" style="--k:6" cx="84" cy="376" r="8"/>
+            </g>
+            <g class="q-pendant c-tarwi" style="--i:3">
+              <path class="q-cord" d="M134 34V340" pathLength="1"/>
+              <circle class="q-knot" style="--k:1" cx="134" cy="130" r="8"/><circle class="q-knot" style="--k:2" cx="134" cy="148" r="8"/><circle class="q-knot" style="--k:3" cx="134" cy="166" r="8"/>
+              <circle class="q-knot" style="--k:4" cx="134" cy="262" r="8"/>
+            </g>
+            <g class="q-pendant c-anil" style="--i:4">
+              <path class="q-cord" d="M184 34V460" pathLength="1"/>
+              <circle class="q-knot" style="--k:1" cx="184" cy="120" r="8"/>
+              <circle class="q-knot" style="--k:2" cx="184" cy="230" r="8"/><circle class="q-knot" style="--k:3" cx="184" cy="248" r="8"/><circle class="q-knot" style="--k:4" cx="184" cy="266" r="8"/><circle class="q-knot" style="--k:5" cx="184" cy="284" r="8"/>
+              <circle class="q-knot" style="--k:6" cx="184" cy="390" r="8"/><circle class="q-knot" style="--k:7" cx="184" cy="408" r="8"/>
+            </g>
+            <g class="q-pendant c-cochinilla" style="--i:5">
+              <path class="q-cord" d="M234 34V380" pathLength="1"/>
+              <circle class="q-knot" style="--k:1" cx="234" cy="140" r="8"/><circle class="q-knot" style="--k:2" cx="234" cy="158" r="8"/>
+              <circle class="q-knot" style="--k:3" cx="234" cy="290" r="8"/>
+            </g>
+            <g class="q-pendant c-alpaca" style="--i:6">
+              <path class="q-cord" d="M284 34V330" pathLength="1"/>
+              <circle class="q-knot" style="--k:1" cx="284" cy="110" r="8"/><circle class="q-knot" style="--k:2" cx="284" cy="128" r="8"/><circle class="q-knot" style="--k:3" cx="284" cy="146" r="8"/><circle class="q-knot" style="--k:4" cx="284" cy="164" r="8"/>
+              <circle class="q-knot" style="--k:5" cx="284" cy="250" r="8"/>
+            </g>
+            <g class="q-pendant c-tarwi" style="--i:7">
+              <path class="q-cord" d="M334 34V494" pathLength="1"/>
+              <circle class="q-knot" style="--k:1" cx="334" cy="150" r="8"/><circle class="q-knot" style="--k:2" cx="334" cy="168" r="8"/>
+              <circle class="q-knot" style="--k:3" cx="334" cy="260" r="8"/><circle class="q-knot" style="--k:4" cx="334" cy="278" r="8"/><circle class="q-knot" style="--k:5" cx="334" cy="296" r="8"/>
+            </g>
+            <!-- cuerda principal encima de las colgantes -->
+            <rect class="q-main" x="0" y="26" width="400" height="16" rx="8"/>
+            <path class="q-twist" d="M4 34H396" />
+          </svg>
+          <a class="quipu-ring" data-whatsapp="generico" aria-label="Escríbenos por WhatsApp" href="https://wa.me/51943755357?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20sus%20servicios%20contables" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.2 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.2-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.8s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.4.6-.4.4c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.1 1 2.1 1.3 2.4 1.5.3.1.5.1.6-.1l.9-1.1c.2-.3.4-.2.6-.1l1.9.9c.3.1.5.2.5.3.1.2.1.8-.1 1.4z"/></svg>
+          </a>
         </div>
       </div>
     </section>
@@ -91,10 +145,10 @@
       <div class="container">
         <!-- INVENTADO: cifras de experiencia (años, empresas, declaraciones, regiones) -->
         <ul class="stats-list">
-          <li><span class="stat-number">10+</span><span class="stat-label">años de experiencia</span></li>
-          <li><span class="stat-number">200+</span><span class="stat-label">empresas atendidas</span></li>
-          <li><span class="stat-number">1500+</span><span class="stat-label">declaraciones presentadas</span></li>
-          <li><span class="stat-number">12</span><span class="stat-label">regiones del Perú</span></li>
+          <li><span class="stat-number">10+</span> <span class="stat-label">años de experiencia</span></li>
+          <li><span class="stat-number">200+</span> <span class="stat-label">empresas atendidas</span></li>
+          <li><span class="stat-number">1500+</span> <span class="stat-label">declaraciones presentadas</span></li>
+          <li><span class="stat-number">12</span> <span class="stat-label">regiones del Perú</span></li>
         </ul>
       </div>
     </section>
@@ -103,35 +157,45 @@
     <section class="section-alt" id="servicios">
       <div class="container">
         <h2 class="section-title">Nuestros servicios</h2>
-        <ul class="card-grid">
-          <li class="card">
-            <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 13h6M9 17h6"/></svg></div>
-            <h3>Contabilidad General</h3>
-            <p>Registro, análisis y elaboración de estados financieros</p>
+        <ul class="servicios">
+          <li class="servicio">
+            <span class="cuerda" style="--c:var(--cochinilla)" aria-hidden="true"><i></i></span>
+            <div>
+              <h3>Contabilidad General</h3>
+              <p>Registro, análisis y elaboración de estados financieros</p>
+            </div>
             <a class="btn btn-outline" data-whatsapp="contabilidad-general" aria-label="Cotizar Contabilidad General por WhatsApp" href="https://wa.me/51943755357?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20sus%20servicios%20contables" target="_blank" rel="noopener">Cotizar</a>
           </li>
-          <li class="card">
-            <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M8 7h8M8 12h2M12 12h2M16 12h0M8 16h2M12 16h2M16 16h0"/></svg></div>
-            <h3>Asesoría Tributaria</h3>
-            <p>Declaraciones, planificación y atención de fiscalizaciones</p>
+          <li class="servicio">
+            <span class="cuerda" style="--c:var(--tarwi-dark)" aria-hidden="true"><i></i><i></i></span>
+            <div>
+              <h3>Asesoría Tributaria</h3>
+              <p>Declaraciones, planificación y atención de fiscalizaciones</p>
+            </div>
             <a class="btn btn-outline" data-whatsapp="asesoria-tributaria" aria-label="Cotizar Asesoría Tributaria por WhatsApp" href="https://wa.me/51943755357?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20sus%20servicios%20contables" target="_blank" rel="noopener">Cotizar</a>
           </li>
-          <li class="card">
-            <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.5"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6M15 14.5c3 0 6 1.5 6 5.5"/></svg></div>
-            <h3>Constitución de Empresas</h3>
-            <p>Formaliza tu negocio de manera segura y rápida</p>
+          <li class="servicio">
+            <span class="cuerda" style="--c:var(--indigo)" aria-hidden="true"><i></i><i></i><i></i></span>
+            <div>
+              <h3>Constitución de Empresas</h3>
+              <p>Formaliza tu negocio de manera segura y rápida</p>
+            </div>
             <a class="btn btn-outline" data-whatsapp="constitucion-empresas" aria-label="Cotizar Constitución de Empresas por WhatsApp" href="https://wa.me/51943755357?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20sus%20servicios%20contables" target="_blank" rel="noopener">Cotizar</a>
           </li>
-          <li class="card">
-            <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 20h18M6 16v-4M11 16V9M16 16v-6"/><path d="M5 8l5-4 3 3 6-4M15 3h4v4"/></svg></div>
-            <h3>Asesoría Financiera</h3>
-            <p>Control de costos, presupuestos y análisis de rentabilidad</p>
+          <li class="servicio">
+            <span class="cuerda" style="--c:var(--cochinilla)" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+            <div>
+              <h3>Asesoría Financiera</h3>
+              <p>Control de costos, presupuestos y análisis de rentabilidad</p>
+            </div>
             <a class="btn btn-outline" data-whatsapp="asesoria-financiera" aria-label="Cotizar Asesoría Financiera por WhatsApp" href="https://wa.me/51943755357?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20sus%20servicios%20contables" target="_blank" rel="noopener">Cotizar</a>
           </li>
-          <li class="card">
-            <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h4M13 3l5 5v2M9 12h4M9 16h2"/><circle cx="16" cy="17" r="3"/><path d="M18.2 19.2L21 22"/></svg></div>
-            <h3>Peritaje Contable</h3>
-            <p>Informes periciales y asesoría en procesos judiciales</p>
+          <li class="servicio">
+            <span class="cuerda" style="--c:var(--tarwi-dark)" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>
+            <div>
+              <h3>Peritaje Contable</h3>
+              <p>Informes periciales y asesoría en procesos judiciales</p>
+            </div>
             <a class="btn btn-outline" data-whatsapp="peritaje-contable" aria-label="Cotizar Peritaje Contable por WhatsApp" href="https://wa.me/51943755357?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20sus%20servicios%20contables" target="_blank" rel="noopener">Cotizar</a>
           </li>
         </ul>
@@ -149,16 +213,16 @@
             <h3>MSc. CPC Paul M. Solis Vera</h3>
             <p class="about-meta">Contador Público Colegiado · Asesor contable y tributario con más de diez años de experiencia</p>
             <p>Paul ayuda a emprendedores y empresas peruanas a ordenar su contabilidad, cumplir con la SUNAT y tomar mejores decisiones financieras. Su enfoque es claro: explicar los números en simple y estar disponible cuando el negocio lo necesita.</p>
-            <ul class="about-creds">
-              <li>Magíster en Tributación y Asesoría Fiscal por la UNPRG</li>
-              <li>Máster en Administración por la Escuela de Negocios Formato Educativo de España</li>
-              <li>Perito contable y auditor independiente certificado por el Colegio de Contadores Públicos de Lambayeque</li>
-              <li>Ex Perito Oficial de la Fiscalía Penal y de Lavado de Activos de Trujillo</li>
-              <li>Ex Auditor Especialista II en Auditoría Financiera de la Contraloría General de la República</li>
-              <li>Docente universitario y de educación técnica superior</li>
-            </ul>
           </div>
         </div>
+        <ul class="about-creds">
+          <li>Magíster en Tributación y Asesoría Fiscal por la UNPRG</li>
+          <li>Máster en Administración por la Escuela de Negocios Formato Educativo de España</li>
+          <li>Perito contable y auditor independiente certificado por el Colegio de Contadores Públicos de Lambayeque</li>
+          <li>Ex Perito Oficial de la Fiscalía Penal y de Lavado de Activos de Trujillo</li>
+          <li>Ex Auditor Especialista II en Auditoría Financiera de la Contraloría General de la República</li>
+          <li>Docente universitario y de educación técnica superior</li>
+        </ul>
       </div>
     </section>
 
@@ -168,20 +232,16 @@
         <h2 class="section-title">¿Por qué elegirnos?</h2>
         <ul class="why-list">
           <li class="why-item">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M8 12.5l3 3 5-6"/></svg>
-            <div><h3>Atención personalizada</h3><p>Conocemos tu negocio y te respondemos directamente.</p></div>
+            <h3>Atención personalizada</h3><p>Conocemos tu negocio y te respondemos directamente.</p>
           </li>
           <li class="why-item">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M8 12.5l3 3 5-6"/></svg>
-            <div><h3>Responsabilidad y confidencialidad</h3><p>Tu información financiera está siempre protegida.</p></div>
+            <h3>Responsabilidad y confidencialidad</h3><p>Tu información financiera está siempre protegida.</p>
           </li>
           <li class="why-item">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M8 12.5l3 3 5-6"/></svg>
-            <div><h3>Soluciones prácticas y a tu medida</h3><p>Propuestas simples, pensadas para tu realidad.</p></div>
+            <h3>Soluciones prácticas y a tu medida</h3><p>Propuestas simples, pensadas para tu realidad.</p>
           </li>
           <li class="why-item">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M8 12.5l3 3 5-6"/></svg>
-            <div><h3>Experiencia profesional</h3><p>Años resolviendo casos contables y tributarios.</p></div>
+            <h3>Experiencia profesional</h3><p>Años resolviendo casos contables y tributarios.</p>
           </li>
         </ul>
       </div>
@@ -304,7 +364,7 @@
 
   <!-- Botón flotante de WhatsApp (siempre visible) -->
   <a class="whatsapp-float" data-whatsapp="generico" aria-label="Escríbenos por WhatsApp" href="https://wa.me/51943755357?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20sus%20servicios%20contables" target="_blank" rel="noopener">
-    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.2 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.2-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.8s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.4.6-.4.4c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.1 1 2.1 1.300 2.400 1.500.3.1.5.1.6-.1l.9-1.100c.2-.3.4-.2.6-.1l1.900.9c.3.1.5.2.5.3.1.2.1.8-.1 1.400z"/></svg>
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.2 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.2-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.8s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.4.6-.4.4c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.1 1 2.1 1.3 2.4 1.5.3.1.5.1.6-.1l.9-1.1c.2-.3.4-.2.6-.1l1.9.9c.3.1.5.2.5.3.1.2.1.8-.1 1.4z"/></svg>
   </a>
 </body>
 </html>
