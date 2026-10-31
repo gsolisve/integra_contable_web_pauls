@@ -63,7 +63,7 @@
 
 ## 8. Despliegue en GitHub Pages
 
-- [ ] 8.1 Inicializar git en la carpeta, conectarla con `https://github.com/gsolisve/integra_contable_web_pauls`, subir los archivos y activar Pages (rama `main`, carpeta raíz)
-- [ ] 8.2 Verificar el sitio publicado en el subpath: estilos, imágenes, favicon, menú móvil y botones de WhatsApp sin errores 404
+- [x] 8.1 Inicializar git en la carpeta, conectarla con `https://github.com/gsolisve/integra_contable_web_pauls`, subir los archivos y activar Pages (rama `main`, carpeta raíz)
+- [x] 8.2 Verificar el sitio publicado en el subpath: estilos, imágenes, favicon, menú móvil y botones de WhatsApp sin errores 404
 - [ ] 8.3 Confirmar que `og:url`, `og:image` y la `url` del JSON-LD apuntan a `https://gsolisve.github.io/integra_contable_web_pauls/` y comprobar la vista previa compartiendo el enlace en WhatsApp
 - [ ] 8.4 Checkpoint de aprendizaje final (git, Pages, cómo publicar un cambio) registrado en `docs/APRENDIZAJE.md`
